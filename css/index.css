@@ -8,8 +8,22 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   outline-style: none;
+  box-sizing: border-box;
+}
+
+a {
+  color: #111;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
 }
 
 html {
@@ -17,11 +31,11 @@ html {
 }
 
 body {
-  font-size: 1.3rem;
   font-family: "Pretendard", sans-serif;
+  font-size: 1.3rem;
   font-weight: 400;
-  color: #000;
   line-height: 1;
+  color: #000;
   letter-spacing: -0.64px;
   word-break: keep-all;
 }
