@@ -1,0 +1,75 @@
+{
+  "total": 9,
+  "good_1": {
+    "image": "images/tourimg/t1.jpg",
+    "title": "괌",
+    "desc": "공항 10분 거리, 오션뷰 인피니티 풀",
+    "pkg": "괌 리프 호텔 (구.괌 리프 앤 올리브 스파 리조트)",
+    "price": 219120,
+    "url": "a.html"
+  },
+  "good_2": {
+    "image": "images/tourimg/t2.jpg",
+    "title": "히트상품",
+    "desc": "하얀 설경 비에이 겨울에 만나는 북해도",
+    "pkg": "[북해도 4일]힐링온천 2박+하얀설경/비에이/후라노/삿포로/가족여행추천",
+    "price": 999000,
+    "url": "a.html"
+  },
+  "good_3": {
+    "image": "images/tourimg/t3.jpg",
+    "title": "베스트셀러",
+    "desc": "2명이상 예약시 출발 보장",
+    "pkg": "코타키나발루 판보르네오VS수트라하버 호핑투어+시내관광 5일",
+    "price": 339000,
+    "url": "a.html"
+  },
+  "good_4": {
+    "image": "images/tourimg/t4.webp",
+    "title": "오사카",
+    "desc": "5성급, 난바역과 연결",
+    "pkg": "스위소텔 난카이 오사카 호텔",
+    "price": 193526,
+    "url": "a.html"
+  },
+  "good_5": {
+    "image": "images/tourimg/t5.jpg",
+    "title": "국적기직항",
+    "desc": "스테디셀러, 서유럽입문서",
+    "pkg": "[서유럽 4국10일] 3대박물관+융프라우+베르사이유+9대특식",
+    "price": 3599000,
+    "url": "a.html"
+  },
+  "good_6": {
+    "image": "images/tourimg/t6.jpg",
+    "title": "강력특가",
+    "desc": "스탠다드 더블 (넷플릭스 스트리밍 서비스/개인ID 필요)",
+    "pkg": "호텔 포코 성수",
+    "price": 106700,
+    "url": "a.html"
+  },
+  "good_7": {
+    "image": "images/tourimg/t7.jpg",
+    "title": "강력특가",
+    "desc": "디럭스킹+생맥주 2잔",
+    "pkg": "롤링힐스 호텔",
+    "price": 161820,
+    "url": "a.html"
+  },
+  "good_8": {
+    "image": "images/tourimg/t8.png",
+    "title": "룸UP",
+    "desc": "스탠다드→이그제큐티브 트윈",
+    "pkg": "제이원 호텔",
+    "price": 72400,
+    "url": "a.html"
+  },
+  "good_9": {
+    "image": "images/tourimg/t9.jpg",
+    "title": "강력특가",
+    "desc": "슈페리어 오션뷰 랜덤 배정",
+    "pkg": "통영 스탠포드 호텔앤리조트",
+    "price": 134516,
+    "url": "a.html"
+  }
+}

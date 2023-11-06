@@ -4,6 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>인터파크</title>
+    <!-- swiper JS 1. 기능 부름-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- Initialize swiper : 2.기능을 사용함 -->
+    <script src="js/visual.js"></script>
+    <script src="js/recommend.js"></script>
+    <script src="js/tour.js"></script>
+    <script src="js/ticket.js"></script>
+    <script src="js/live.js"></script>
+    <script src="js/book.js"></script>
+    <script src="js/event.js"></script>
+
+    <!-- css -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
@@ -85,53 +97,11 @@
       <div class="main">
         <!-- 비주얼 슬라이드 영역 -->
         <section class="visual">
-          <div class="visual-innr">
+          <div class="visual-inner">
             <!-- swiper -->
             <div class="swiper visual-slide">
               <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <!-- 실제 내용 배치 -->
-                  <div class="visual-slide-item">
-                    <a href="#">
-                      <img src="./images/v1.png" alt="" />
-                    </a>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="visual-slide-item">
-                    <a href="#">
-                      <img src="./images/v2.jpg" alt="" />
-                    </a>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="visual-slide-item">
-                    <a href="#">
-                      <img src="./images/v3.jpg" alt="" />
-                    </a>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="visual-slide-item">
-                    <a href="#">
-                      <img src="./images/v4.jpg" alt="" />
-                    </a>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="visual-slide-item">
-                    <a href="#">
-                      <img src="./images/v5.jpg" alt="" />
-                    </a>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="visual-slide-item">
-                    <a href="#">
-                      <img src="./images/v6.png" alt="" />
-                    </a>
-                  </div>
-                </div>
+                <!-- 외부 데이터 연동 -->
               </div>
             </div>
             <!-- Swiper Navugation -->
@@ -140,32 +110,280 @@
           </div>
         </section>
         <!-- //비주얼 슬라이드 영역 -->
+        <!-- 쇼핑 추천 -->
+        <section class="recommend">
+          <div class="recommend-inner">
+            <div class="recommend-header">
+              <h2 class="recommend-title">쇼핑 추천</h2>
+              <span class="recommend-txt"
+                >할인이 쎄다! 지금, 특가 상품을 확인하세요.</span
+              >
+            </div>
+            <div class="recommend-main">
+              <div class="recommend-category">
+                <ul class="recommend-list">
+                  <li>
+                    <button class="recommend-cate-bt recommend-cate-bt-active">
+                      쎈딜
+                    </button>
+                  </li>
+                  <li>
+                    <button class="recommend-cate-bt">베스트</button>
+                  </li>
+                  <li>
+                    <button class="recommend-cate-bt">블프데이</button>
+                  </li>
+                  <li>
+                    <button class="recommend-cate-bt">디지털프라자</button>
+                  </li>
+                  <li>
+                    <a href="#" class="recommend-cate-bt">소담상회</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- 추천 상품 슬라이드 -->
+              <div class="recommend-slide-wrap">
+                <div class="swiper recommend-slide">
+                  <div class="swiper-wrapper">
+                    <!-- 외부 데이터 연동 -->
+                  </div>
+                </div>
+                <!-- 좌,우 이동버튼 : 너무 자주 재활용 됨 -->
+                <!-- 그래서, 재활용 가능 하도록 별도 -->
+                <button class="slide-prev-bt">
+                  <img src="images/slider_arrow.svg" alt="" />
+                </button>
+                <button class="slide-next-bt">
+                  <img src="images/slider_arrow.svg" alt="" />
+                </button>
+              </div>
+              <!-- //추천 상품 슬라이드 -->
+            </div>
+            <div class="recommend-footer"></div>
+          </div>
+        </section>
+        <!-- //쇼핑 추천 -->
+        <!-- 투어 특가  -->
+        <section class="tour">
+          <div class="tour-inner">
+            <div class="tour-header">
+              <h2 class="tour-title">투어 특가</h2>
+              <span class="tour-txt">해외여행은 인터파크다</span>
+            </div>
+            <div class="tour-main">
+              <div class="tour-category">
+                <ul class="tour-list">
+                  <li>
+                    <button class="tour-cate-bt tour-cate-bt-active">
+                      망설이면 품절
+                    </button>
+                  </li>
+                  <li>
+                    <button class="tour-cate-bt">패키지</button>
+                  </li>
+                  <li>
+                    <button class="tour-cate-bt">국내숙소</button>
+                  </li>
+                  <li>
+                    <button class="tour-cate-bt">해외숙소</button>
+                  </li>
+                </ul>
+              </div>
+              <div class="tour-slide-wrap">
+                <div class="swiper tour-slide">
+                  <div class="swiper-wrapper">
+                    <!-- 외부 데이터 연동 -->
+                  </div>
+                </div>
+                <button class="slide-prev-bt">
+                  <img src="images/slider_arrow.svg" alt="" />
+                </button>
+                <button class="slide-next-bt">
+                  <img src="images/slider_arrow.svg" alt="" />
+                </button>
+              </div>
+            </div>
+            <div class="tour-footer"></div>
+          </div>
+        </section>
+        <!-- //투어 특가  -->
+        <!-- 티켓 랭킹 -->
+        <section class="ticket">
+          <div class="ticket-inner">
+            <div class="ticket-header">
+              <h2 class="ticket-title">티켓 랭킹</h2>
+              <span class="ticket-txt">오늘 뭐볼까? 지금 HOT한 공연</span>
+            </div>
+            <div class="ticket-main">
+              <div class="ticket-category">
+                <ul class="ticket-list">
+                  <li>
+                    <button class="ticket-cate-bt ticket-cate-bt-active">
+                      뮤지컬
+                    </button>
+                  </li>
+                  <li>
+                    <button class="ticket-cate-bt">콘서트</button>
+                  </li>
+                  <li>
+                    <button class="ticket-cate-bt">스포츠</button>
+                  </li>
+                  <li>
+                    <button class="ticket-cate-bt">전시/행사</button>
+                  </li>
+                  <li>
+                    <button class="ticket-cate-bt">클래식/무용</button>
+                  </li>
+                  <li>
+                    <button class="ticket-cate-bt">아동/가족</button>
+                  </li>
+                  <li>
+                    <button class="ticket-cate-bt">연극</button>
+                  </li>
+                  <li>
+                    <button class="ticket-cate-bt">레저/캠핑</button>
+                  </li>
+                </ul>
+              </div>
+              <div class="ticket-slide-wrap">
+                <div class="swiper ticket-slide">
+                  <div class="swiper-wrapper"></div>
+                </div>
+                <button class="slide-prev-bt">
+                  <img src="images/slider_arrow.svg" alt="" />
+                </button>
+                <button class="slide-next-bt">
+                  <img src="images/slider_arrow.svg" alt="" />
+                </button>
+              </div>
+            </div>
+            <div class="ticket-footer"></div>
+          </div>
+        </section>
+        <!-- //티켓 랭킹 -->
+        <!-- 라이브 -->
+        <section class="live">
+          <div class="live-inner">
+            <div class="live-main">
+              <h2 class="live-title">
+                <img src="./images/live.svg" alt="라이브" />
+              </h2>
+              <div class="live-slide-wrap">
+                <div class="swiper live-slide">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    <div class="swiper-slide">Slide 4</div>
+                    <div class="swiper-slide">Slide 5</div>
+                    <div class="swiper-slide">Slide 6</div>
+                    <div class="swiper-slide">Slide 7</div>
+                    <div class="swiper-slide">Slide 8</div>
+                    <div class="swiper-slide">Slide 9</div>
+                  </div>
+                </div>
+                <button class="slide-prev-bt">
+                  <img src="images/slider_arrow.svg" alt="" />
+                </button>
+                <button class="slide-next-bt">
+                  <img src="images/slider_arrow.svg" alt="" />
+                </button>
+              </div>
+            </div>
+            <div class="live-footer"></div>
+          </div>
+        </section>
+        <!-- //라이브 -->
+        <!-- book -->
+        <section class="book">
+          <div class="book-inner">
+            <div class="book-header">
+              <h2 class="book-title">오늘의 도서</h2>
+              <span class="book-txt"
+                >지금 읽기 딱 좋은 책, 놓치지 마세요!
+              </span>
+            </div>
+            <div class="book-main">
+              <div class="book-category">
+                <ul class="book-list">
+                  <li>
+                    <button class="book-cate-bt book-cate-bt-active">
+                      MD’s Pick
+                    </button>
+                  </li>
+                  <li>
+                    <button class="book-cate-bt">베스트셀러</button>
+                  </li>
+                  <li>
+                    <button class="book-cate-bt">신간추천</button>
+                  </li>
+                  <li>
+                    <button class="book-cate-bt">특가할인</button>
+                  </li>
+                </ul>
+              </div>
+              <div class="book-slide-wrap">
+                <div class="swiper book-slide">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    <div class="swiper-slide">Slide 4</div>
+                    <div class="swiper-slide">Slide 5</div>
+                    <div class="swiper-slide">Slide 6</div>
+                    <div class="swiper-slide">Slide 7</div>
+                    <div class="swiper-slide">Slide 8</div>
+                    <div class="swiper-slide">Slide 9</div>
+                  </div>
+                </div>
+                <button class="slide-prev-bt">
+                  <img src="images/slider_arrow.svg" alt="" />
+                </button>
+                <button class="slide-next-bt">
+                  <img src="images/slider_arrow.svg" alt="" />
+                </button>
+              </div>
+            </div>
+            <div class="book-footer"></div>
+          </div>
+        </section>
+        <!-- //book -->
+        <!-- event -->
+        <section class="event">
+          <div class="event-inner">
+            <div class="event-main">
+              <h2 class="event-title">이벤트</h2>
+              <span class="event-txt"
+                >인터파크에서 할인혜택을 꼭 챙기세요.
+              </span>
+              <div class="event-slide-wrap">
+                <div class="swiper event-slide">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    <div class="swiper-slide">Slide 4</div>
+                    <div class="swiper-slide">Slide 5</div>
+                    <div class="swiper-slide">Slide 6</div>
+                    <div class="swiper-slide">Slide 7</div>
+                    <div class="swiper-slide">Slide 8</div>
+                    <div class="swiper-slide">Slide 9</div>
+                  </div>
+                </div>
+                <button class="slide-prev-bt">
+                  <img src="images/slider_arrow.svg" alt="" />
+                </button>
+                <button class="slide-next-bt">
+                  <img src="images/slider_arrow.svg" alt="" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- //event -->
       </div>
       <!-- 하단 영역 -->
       <footer class="footer"></footer>
     </div>
   </body>
 </html>
-
-<script>
-  console.log("html 태그 끝 에 기재가 정말 좋은 자리");
-</script>
-<!-- swiper JS 1. 기능 부름-->
-<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-<!-- Initialize swiper : 2.기능을 사용함 -->
-<script>
-  var swiper = new Swiper(".visual-slide", {
-    slidesPerView: 2,
-    spaceBetween: 24,
-    loop: true,
-    autoplay: {
-      delay: 1000,
-      disableOnInteraction: false,
-    },
-    speed: 500,
-    navigation: {
-      nextEl: ".visual-slide-next",
-      prevEl: ".visual-slide-prev",
-    },
-  });
-</script>

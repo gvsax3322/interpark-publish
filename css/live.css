@@ -1,0 +1,49 @@
+.live {
+  position: relative;
+  padding-top: 0;
+  padding-bottom: 90px;
+}
+
+.live-inner {
+  position: relative;
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.live-title {
+  position: relative;
+  margin-bottom: 10px;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+}
+
+.live-title img {
+  width: 154px;
+  height: 40px;
+}
+
+.live-txt {
+  position: relative;
+  display: block;
+  font-size: 1.8rem;
+  color: #a7a9a7;
+  text-align: center;
+}
+
+.live-main {
+  position: relative;
+  padding: 25px 0;
+}
+
+.live-slide-wrap {
+  position: relative;
+  height: 455px;
+  margin-top: 23px;
+  background-color: yellowgreen;
+}
+
+.live-footer {
+  position: relative;
+}
