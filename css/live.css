@@ -41,7 +41,187 @@
   position: relative;
   height: 455px;
   margin-top: 23px;
-  background-color: yellowgreen;
+}
+
+.live-link {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.live-link-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.live-link-info-bg::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+      0deg,
+      rgba(34, 34, 34, 0.5),
+      rgba(34, 34, 34, 0.5)
+    ),
+    linear-gradient(180deg, rgba(0, 0, 0, 0.4) 18.65%, transparent 39.78%),
+    linear-gradient(180deg, transparent 56.75%, rgba(0, 0, 0, 0.4) 87.59%);
+  z-index: 0;
+}
+
+.live-link-info::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.4) 18.65%,
+      transparent 39.78%
+    ),
+    linear-gradient(180deg, transparent 56.75%, rgba(0, 0, 0, 0.5) 87.59%);
+  z-index: 0;
+}
+
+.live-link-info {
+  position: relative;
+  height: 100%;
+  padding: 20px 20px;
+}
+
+.live-link-info-1 {
+  position: relative;
+  height: 20%;
+  z-index: 1;
+}
+
+.live-link-info-1 i {
+  position: relative;
+  display: inline-block;
+  height: 3.2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 1.3rem;
+  font-style: normal;
+  line-height: 3.2rem;
+  color: #fff;
+  border-radius: 15px;
+  padding: 0 12px;
+  margin-bottom: 8px;
+}
+
+.live-link-info-1 em {
+  display: -webkit-box;
+  /* 2줄이상 말줄임 */
+  overflow: hidden;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.4rem;
+  color: #fff;
+  text-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.5);
+  word-break: break-all;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.live-link-info-2 {
+  position: relative;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.live-link-info-2-a {
+  position: relative;
+  margin-bottom: 0.4rem;
+  font-size: 2.8rem;
+  line-height: 3.35rem;
+  color: #fff;
+}
+
+.live-link-info-2-b {
+  position: relative;
+  font-size: 5rem;
+  line-height: 6rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.live-link-info-3 {
+  position: relative;
+  height: 20%;
+  display: flex;
+  padding-top: 20px;
+  z-index: 1;
+}
+
+.live-link-info-3 img {
+  height: 64px;
+  width: 64px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.live-link-info-3-a {
+  position: relative;
+  display: block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  margin-left: 15px;
+  margin-top: 3px;
+}
+
+.live-good-info-price {
+  display: block;
+  font-weight: 700;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.live-good-info-price b {
+  position: relative;
+  font-family: 2rem;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  font-weight: 700;
+  color: #ef3e43;
+}
+
+.live-good-info-price em {
+  position: relative;
+  font-family: 2rem;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.live-good-info-price-span {
+  position: absolute;
+  font-size: 15px;
+  font-weight: 300;
 }
 
 .live-footer {

@@ -77,9 +77,44 @@
   position: relative;
   height: 400px;
   margin-top: 23px;
-  background-color: yellowgreen;
 }
 
 .book-footer {
   position: relative;
+}
+
+.book-slide-img img {
+  width: 232px;
+  height: 324px;
+  border: 1px solid #e8e8e8;
+  margin-bottom: 10px;
+}
+
+.book-slide-item-f {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.book-slide-desc {
+  margin-bottom: 4px;
+  font-size: 1.5rem;
+  color: #111;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 220px;
+  text-align: center;
+}
+
+.book-slide-price {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.book-slide-price span {
+  font-size: 1.6rem;
+  font-weight: 300;
 }

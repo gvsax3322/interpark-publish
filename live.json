@@ -1,23 +1,107 @@
 {
-  "live_1": {
-    "live-info": {
-      "image": "images/live_1.jpg",
-      "state": "방송예정",
-      "title": "소담상회 X 에이브랩",
-      "url": "c.html"
-    },
-
-    "live-day": {
-      "date": "10월 31일 (화)",
-      "time": "16:00"
-    },
-
-    "live-good": {
-      "good_image": "images/live_2.jpg",
-      "good_title": "[10.31] ~",
-      "good_discount": 12,
-      "good_price": 35000,
-      "good_url": "good.html"
-    }
+  "total": 8,
+  "good_1": {
+    "image": "images/lives/l1.jpg",
+    "title": "방송예정",
+    "desc": "[에듀트립] 글로벌 캠프 첫방 기념 최초 할인! 채팅 참여만 해도 경품 추첨",
+    "date": "11월 08일 (수)",
+    "hour": "11:00",
+    "simage": "images/lives/ls1.png",
+    "detail": "[기획전] 새로운 여행, 컨셉 트립",
+    "discount": "",
+    "price": "",
+    "url": "a.html",
+    "url2": "b.html"
+  },
+  "good_2": {
+    "image": "images/lives/l2.png",
+    "title": "방송예정",
+    "desc": "제주 자연 속에서 즐기는 온전한 쉼 ✨ 파르나스 호텔 제주",
+    "date": "11월 23일 (목)",
+    "hour": "19:00",
+    "simage": "",
+    "detail": "",
+    "discount": "",
+    "price": "",
+    "url": "a.html",
+    "url2": "a.html"
+  },
+  "good_3": {
+    "image": "images/lives/l3.png",
+    "title": "VOD",
+    "desc": "네스트호텔 최대 73% 라이브특가",
+    "date": "",
+    "hour": "",
+    "simage": "images/lives/ls3.jpg",
+    "detail": "네스트호텔 최대 73% 라이브특가",
+    "discount": 73,
+    "price": 125100,
+    "url": "a.html",
+    "url2": "b.html"
+  },
+  "good_4": {
+    "image": "images/lives/l4.jpg",
+    "title": "VOD",
+    "desc": "[나트랑] 스완도르 올인클루시브 5일 70만원대~",
+    "date": "",
+    "hour": "",
+    "simage": "images/lives/ls4.png",
+    "detail": "[카쇼라X스완도르 리조트] 올인클루시브 나트랑 3박 5일",
+    "discount": "",
+    "price": 749000,
+    "url": "a.html",
+    "url2": "b.html"
+  },
+  "good_5": {
+    "image": "images/lives/l5.jpg",
+    "title": "VOD",
+    "desc": "전라도 특집 여수/전주/광주",
+    "date": "",
+    "hour": "",
+    "simage": "images/lives/ls5.jpg",
+    "detail": "히든베이 호텔",
+    "discount": 81,
+    "price": 84950,
+    "url": "a.html",
+    "url2": "b.html"
+  },
+  "good_6": {
+    "image": "images/lives/l6.jpg",
+    "title": "VOD",
+    "desc": "진에어 동계 잔여석 & 3월 출발 단독 특가! 방송 중에만 제휴카드로 결제시 15% 추가 할인 🎁",
+    "date": "",
+    "hour": "",
+    "simage": "images/lives/ls6.jpg",
+    "detail": "[실시간 항공권] 인천 ↔ 오사카",
+    "discount": "",
+    "price": 217900,
+    "url": "a.html",
+    "url2": "b.html"
+  },
+  "good_7": {
+    "image": "images/lives/l7.jpg",
+    "title": "VOD",
+    "desc": "용평리조트 최대 85% 라이브 특가! 7만원대~",
+    "date": "",
+    "hour": "",
+    "simage": "images/lives/ls7.jpg",
+    "detail": "용평리조트",
+    "discount": 80,
+    "price": 72000,
+    "url": "a.html",
+    "url2": "b.html"
+  },
+  "good_8": {
+    "image": "images/lives/l8.jpg",
+    "title": "VOD",
+    "desc": "[이달의 여행] 코타키나발루 특가를 다 모았다!",
+    "date": "",
+    "hour": "",
+    "simage": "images/lives/ls8.jpg",
+    "detail": "[이달의 여행] 코타키나발루 특가모음🎉",
+    "discount": "",
+    "price": "",
+    "url": "a.html",
+    "url2": "b.html"
   }
 }

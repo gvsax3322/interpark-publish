@@ -1,0 +1,76 @@
+// 주석은 출력안됨
+/*
+  scss 에 대한 이해
+*/
+// 변수 만들기
+$bg: rgb(102, 101, 101);
+$fontColr: green;
+$pcWidth: 1280px;
+$mvWidth: 1024px;
+$phoneWidth: 480px;
+$bgImg: "images/a.jpg";
+
+$screenSize: $pcWidth;
+
+// 중첩 (Nesting)
+section {
+  position: relative;
+  background-color: $bg;
+  .inner {
+    $nameSize: 50px;
+    position: relative;
+    display: flex;
+    .logo {
+      position: relative;
+      font-size: $nameSize;
+      background-color: $bg;
+      &.gogo {
+        width: 200px;
+      }
+      a:hover {
+        background-color: green;
+      }
+      a {
+        &:active {
+          background-color: blue;
+        }
+        position: relative;
+        display: block;
+        text-align: center;
+        img {
+          width: 100%;
+          height: 100%;
+          // 밴더 프리픽스라고 한다.
+          object-fit: contain;
+          border-radius: 50px;
+          transform: rotate(360deg);
+          // 중첩 빠져나가기
+          @at-root section {
+            width: 5000px;
+          }
+        }
+      }
+    }
+    .sns {
+      position: relative;
+      // 중첩 속성(프로퍼티)
+      font: {
+        size: 10px;
+        family: "dasd";
+        weight: 400;
+      }
+      background: {
+        color: red;
+        image: url();
+        size: cover;
+        position: center;
+      }
+      // font-size: 10px;
+      // font-family: "Nanum";
+      // font-weight: 400;
+    }
+    .copy {
+      position: relative;
+    }
+  }
+}

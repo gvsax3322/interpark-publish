@@ -1,0 +1,63 @@
+{
+  "total": 10,
+  "good_1": {
+    "image": "images/books/b1.jpg",
+    "desc": "작별하지 않는다",
+    "price": 12600,
+    "url": "a.html"
+  },
+  "good_2": {
+    "image": "images/books/b2.jpg",
+    "desc": "결국 해내는 사람들의 원칙",
+    "price": 16200,
+    "url": "a.html"
+  },
+  "good_3": {
+    "image": "images/books/b3.jpg",
+    "desc": "4세대세이펜 레인온펜 / 태극펜 특별 구성 모음전",
+    "price": 169000,
+    "url": "a.html"
+  },
+  "good_4": {
+    "image": "images/books/b4.jpg",
+    "desc": "역사는 반복된다",
+    "price": 15750,
+    "url": "a.html"
+  },
+  "good_5": {
+    "image": "images/books/b5.jpg",
+    "desc": "인생은 순간이다",
+    "price": 16200,
+    "url": "a.html"
+  },
+  "good_6": {
+    "image": "images/books/b6.jpg",
+    "desc": "정국 골든 앨범 GOLDEN 일반반 SOLID 솔로 데뷔 방탄 BTS",
+    "price": 17900,
+    "url": "a.html"
+  },
+  "good_7": {
+    "image": "images/books/b7.jpg",
+    "desc": "[2024년 달력 얼리버드] 어린왕자, 앤, 곰돌이푸, 애드워드호퍼, 모네, 고흐, 윤동주 등",
+    "price": 6560,
+    "url": "a.html"
+  },
+  "good_8": {
+    "image": "images/books/b8.jpg",
+    "desc": "사선을 걷는 남자",
+    "price": 16020,
+    "url": "a.html"
+  },
+  "good_9": {
+    "image": "images/books/b9.jpg",
+    "desc": "완전배출",
+    "price": 17100,
+    "url": "a.html"
+  },
+  "good_10": {
+    "image": "images/books/b10.jpg",
+    "desc": "당신의 꿈은 우연이 아니다",
+    "price": 18000,
+    "url": "a.html"
+  }
+}
